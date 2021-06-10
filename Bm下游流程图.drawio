@@ -1,1 +1,145 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T05:55:21.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.7.6" etag="zlxuQHBmCRwVauTdCFDh" type="github"><diagram id="KRvAoWJSw_I8BphRz5LJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-10T07:33:43.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Q_klo5yh8HOx2Xjkg27u" version="14.7.6" type="github">
+  <diagram id="KRvAoWJSw_I8BphRz5LJ" name="第 1 页">
+    <mxGraphModel dx="2249" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-1" value="下游（成本）流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a06lGNTXg1r7nn_AcgPJ-2" target="a06lGNTXg1r7nn_AcgPJ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-188" y="180" />
+              <mxPoint x="-5" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-2" value="系统结算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-233" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a06lGNTXg1r7nn_AcgPJ-3" target="a06lGNTXg1r7nn_AcgPJ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-68" y="180" />
+              <mxPoint x="-5" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-3" value="虚拟工单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-113" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a06lGNTXg1r7nn_AcgPJ-4" target="a06lGNTXg1r7nn_AcgPJ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="52" y="180" />
+              <mxPoint x="-5" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-4" value="工单上传" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a06lGNTXg1r7nn_AcgPJ-6" target="a06lGNTXg1r7nn_AcgPJ-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="192" y="180" />
+              <mxPoint x="-5" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-6" value="人工处理异常结费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137" y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-53" value="&lt;p style=&quot;line-height: 210%&quot;&gt;文字说明：&lt;br&gt;1，工单通过系统结算、虚拟工单、工单上传、人工处理异常结费等，生成下游结费后，下游实结工单状态变为&lt;font color=&quot;#ff0000&quot;&gt;&#39;服务商结费已生成，待发布数据&#39;&lt;/font&gt;&lt;br&gt;2，每月5日，结费专员发布结费，同时通知服务商进行结费确认，下游实结工单状态变为&lt;font color=&quot;#ff0000&quot;&gt;&#39;服务商结费已发布，待服务商确认&#39;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#330000&quot;&gt;3，服务商收到邮件登录系统进行结费确认，有两种情况，第一种情况，结费有问题，进行申诉操作，下游实结工单状态变为&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&#39;服务商申诉待审批&#39; 。&lt;/font&gt;&lt;font color=&quot;#330000&quot;&gt;服务商进行申诉后，结费专员进行审批，审批通过，工单金额变为申诉金额，下游实结工单状态变为&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&#39;&lt;/font&gt;&lt;span style=&quot;text-align: center&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;服务商结费已确认&#39;，&lt;/font&gt;&lt;font color=&quot;#330000&quot;&gt;审批拒绝，下游实结工单状态变为&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&#39;服务商申诉驳回&#39;&lt;/font&gt;&lt;font color=&quot;#330000&quot;&gt;，让服务商继续确认，每个服务商每个条工单只能申诉两次，且超过三个月的工单不能申诉。第二种情况：服务商确认了结费，这时下游实结工单 状态变为&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&#39;服务商结费已确认&#39; 。&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="192.5" width="400" height="357.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-64" value="服务商账单生成，待审批" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="630" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-65" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-330" y="220" width="780" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-60" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry width="780" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-7" value="生成下游结费" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="280" y="10" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="a06lGNTXg1r7nn_AcgPJ-65" source="a06lGNTXg1r7nn_AcgPJ-7" target="a06lGNTXg1r7nn_AcgPJ-13">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-61" value="结算状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="-20" y="15" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-13" value="服务商结费已生成，待发布数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="90" y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-14" value="服务商结费已发布，待服务商确认" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="90" y="150" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a06lGNTXg1r7nn_AcgPJ-65" source="a06lGNTXg1r7nn_AcgPJ-13" target="a06lGNTXg1r7nn_AcgPJ-14">
+          <mxGeometry x="90" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-16" value="服务商结费已确认" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="90" y="210" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="a06lGNTXg1r7nn_AcgPJ-65" source="a06lGNTXg1r7nn_AcgPJ-14" target="a06lGNTXg1r7nn_AcgPJ-16">
+          <mxGeometry x="90" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="a06lGNTXg1r7nn_AcgPJ-65" source="a06lGNTXg1r7nn_AcgPJ-18" target="a06lGNTXg1r7nn_AcgPJ-16">
+          <mxGeometry x="90" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-18" value="服务商结费申诉待审批" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="394" y="210" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="a06lGNTXg1r7nn_AcgPJ-65" source="a06lGNTXg1r7nn_AcgPJ-14" target="a06lGNTXg1r7nn_AcgPJ-18">
+          <mxGeometry x="90" y="90" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="190" />
+              <mxPoint x="509" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="a06lGNTXg1r7nn_AcgPJ-65" source="a06lGNTXg1r7nn_AcgPJ-19" target="a06lGNTXg1r7nn_AcgPJ-14">
+          <mxGeometry x="90" y="90" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="285" />
+              <mxPoint x="660" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-19" value="服务商申诉驳回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="394" y="270" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="a06lGNTXg1r7nn_AcgPJ-65" source="a06lGNTXg1r7nn_AcgPJ-18" target="a06lGNTXg1r7nn_AcgPJ-19">
+          <mxGeometry x="90" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-39" value="服务商申诉" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="330" y="170" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-41" value="审批驳回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="504" y="250" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-43" value="驳回后重新让服务商确认" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="340" y="140" width="136" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-45" value="&lt;font color=&quot;#ff0000&quot;&gt;时间超过三个月不能申诉&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="408" y="170" width="136" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-46" value="&lt;font color=&quot;#ff0000&quot;&gt;一条工单服务商只能申诉两次&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="478" y="140" width="176" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-51" value="审批通过" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="a06lGNTXg1r7nn_AcgPJ-65">
+          <mxGeometry x="320" y="210" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-66" value="商务已通知开票，待服务商开票" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="750" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a06lGNTXg1r7nn_AcgPJ-67" value="服务商结费账单已审批，待商务通知开票" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="690" width="230" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
